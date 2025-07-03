@@ -41,6 +41,8 @@ let firstName = "Alice";
 let itemCount = 5;
 let totalPrice = 20;
 let itemSummary = firstName + " bought " + itemCount + " items for $" + totalPrice + ".";
+
+console.log(itemSummary);
 */
 
 // 3) Enhance the program --> Add at least 2 new variables to improve the codes functionality or clarity
