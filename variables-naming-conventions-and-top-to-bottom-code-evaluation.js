@@ -24,9 +24,30 @@ Things to reflect on:
   
 */
 
+/* 
+Original Code:
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+*/
+
+// 1) The program has many variables that are poorly named/unclear. a, b, c, and d are all extremely vague variables and should be renamed.
+
+/* 2) Refactor the code --> New code:
+let firstName = "Alice";
+let itemCount = 5;
+let totalPrice = 20;
+let itemSummary = firstName + " bought " + itemCount + " items for $" + totalPrice + ".";
+*/
+
+// 3) Enhance the program --> Add at least 2 new variables to improve the codes functionality or clarity
+let firstName = "Alice";
+let itemCount = 5;
+let itemName = "watermelons"; // Added an itemName variable to clarify what kind of item was purchased
+let itemDescription = "fruit"; // Added an itemDescription variable to describe the item purchased
+let totalPrice = 20;
+let itemSummary = firstName + " bought " + itemCount + " " + itemName + " for $" + totalPrice + ".";
+console.log(itemSummary);
